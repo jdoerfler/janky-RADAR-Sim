@@ -1,10 +1,10 @@
-https://wokwi.com/ for Pico simulator (use with most current diagram and main.py in repo). 
+Check janky.jpg for a rough idea about what we're working with, except moving to an RPi4 instead of Pico
 
-Check janky.jpg for a rough idea about what we're working with.
+Transceiver library - https://nrf24.github.io/pyRF24/index.html 
 
 Questions to resolve include but are not limited to:
-- Physical case for the Picos and antennas and such
+- Physical case for the Rpi and antennas and such
 - UI for the Fighter and SAM
-- How nRF24L01+ library can handle 'sending' and 'receiving' radar or how we can simulate it
+- How limited hardware interface can handle 'sending' and 'receiving' radar or how we can simulate it (e.g. moving average of 'packets acknowledged'/'packets sent')
 - game parameters and easy variations
 - building out user-friendly configuration, such as the ability to open the case and toggle some settings via button.
